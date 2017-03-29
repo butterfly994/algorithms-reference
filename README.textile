@@ -1,0 +1,35 @@
+h1. Algorithms Reference
+
+h3. An Overview
+
+This is a catalog of all of the classic algorithms I have implemented over the past year as part of training for programming competitions. Many of these are based off of code from "Competitive Programming 3":https://cpbook.net/ and the vidoes of "Tushar Roy":https://www.youtube.com/user/tusharroy2525. I'm planning on adding more to this list as I learn. If you have any suggestions or tips, they are most definitely welcome.
+
+h3. Descriptions
+
+Many of the files have names that either don't make sense because I originally created the file to solve a specific problem, or I abbreviated a longer name. In the order they can be found in the catalog, here is a short description of each file:
+
+1. APSP.java - Floyd Warshall's All Pairs Shortest Paths
+2. Articulation.java - Find Articulation Points and Bridges on an Undirected Graph
+3. BFS.java - Breadth First Search
+4. Bipartite.java - Bipartite Graph Check
+5. CoinSum.java - Given a list of coin denominations, find a way reach c cents while the number of coins n is minimized
+6. DFS.java - Depth First Search
+7. EdgePropertyCheck.java - Used primarily to identify cycles via DFS Spanning Tree
+8. EditDistance.java - Given two strings, find the minimum number of changes needed to make one string match the other
+9. FloodFill.java - Contains both DFS based and BFS based Flood Fill implementations
+10. GraphCC.java - Given a graph, find the connected componenets of it
+11. Interweaving.java - Given two strings and a candidate string, find if the candidate string can be made from the two strings woven together
+12. Jackpot.java - Kadane's Maximum Subarray
+13. Knapsack.java - Given a list of objects with value and weight attributes, and a maximum weight capacity, maximize value
+14. Kruskal.java - Kruskal's Minimum Spanning Tree
+15. LongestCommonSubsequence.java - Given two strings, find the longest non-contiguous subsequence between them
+16. MST.java - Prim's Minimum Spanning Tree
+17. MacIncSubSeq.java - Given a list of integers, find a subsequence such that the sum of the elements is maximized while each consecutive integer is greater than the last
+18. MaxNonAdjSubseq.java - Given a list of integers, find a subsequence such that the sum of the elements is maximized while the elements are non-consecutive
+19. PalindromicSubsequence.java - Given a string, find the longest substring that is a palindrome
+20. SSSP.java - Dijkstra's Single Source Shortest Path
+21. SSSPUnweighted.java - BFS based Single Source Shortest Path for unweighted graphs
+22. ScavengerOne.java - Subset Sum
+23. StrongCC.java - Tarjan's Strongly Connected Components
+24. TopologicalSort.java - Contains both DFS based and BFs based Topological Sort implementations
+25. UFDS.java - Union Find Disjoint Set
